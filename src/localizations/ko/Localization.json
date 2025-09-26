@@ -4,13 +4,13 @@
     "Title": "한국어 (Korean)"
   },
   "Texts": {
-    "#CUSTOM_SERVER": "맞춤 서버",
+    "#CUSTOM_SERVER": "커스텀 서버",
     "#COLLECTION": "모음집",
     "#SERVER": "서버",
     "#ADDRESS": "주소",
     "#EXPIRATION": "만료",
     "#STORAGE": "저장소",
-    "#LOG": "기록",
+    "#LOG": "로그",
     "#INQUIRY": "문의",
     "#BANNER": "배너",
     "#POST": "게시물",
@@ -23,26 +23,26 @@
     "#ENGINE": "엔진",
     "#REPLAY": "다시보기",
     "#ROOM": "방",
-    "#POST_THUMBNAIL": "섬네일",
-    "#PLAYLIST_THUMBNAIL": "섬네일",
+    "#POST_THUMBNAIL": "썸네일",
+    "#PLAYLIST_THUMBNAIL": "썸네일",
     "#LEVEL_COVER": "커버",
     "#LEVEL_BGM": "배경음악",
     "#LEVEL_PREVIEW": "미리보기",
     "#LEVEL_DATA": "데이터",
-    "#SKIN_THUMBNAIL": "섬네일",
+    "#SKIN_THUMBNAIL": "썸네일",
     "#SKIN_DATA": "데이터",
     "#SKIN_TEXTURE": "텍스처",
-    "#BACKGROUND_THUMBNAIL": "섬네일",
+    "#BACKGROUND_THUMBNAIL": "썸네일",
     "#BACKGROUND_IMAGE": "이미지",
     "#BACKGROUND_DATA": "데이터",
     "#BACKGROUND_CONFIGURATION": "구성",
-    "#EFFECT_THUMBNAIL": "섬네일",
+    "#EFFECT_THUMBNAIL": "썸네일",
     "#EFFECT_DATA": "데이터",
     "#EFFECT_AUDIO": "오디오",
-    "#PARTICLE_THUMBNAIL": "섬네일",
+    "#PARTICLE_THUMBNAIL": "썸네일",
     "#PARTICLE_DATA": "데이터",
     "#PARTICLE_TEXTURE": "텍스처",
-    "#ENGINE_THUMBNAIL": "섬네일",
+    "#ENGINE_THUMBNAIL": "썸네일",
     "#ENGINE_PLAYDATA": "플레이 데이터",
     "#ENGINE_WATCHDATA": "시청 데이터",
     "#ENGINE_PREVIEWDATA": "미리보기 데이터",
@@ -52,7 +52,7 @@
     "#REPLAY_DATA": "데이터",
     "#REPLAY_CONFIGURATION": "구성",
     "#ROOM_COVER": "커버",
-    "#ROOM_BGM": "배경음",
+    "#ROOM_BGM": "배경음악",
     "#ROOM_PREVIEW": "미리보기",
     "#GRADE": "등급",
     "#ARCADE_SCORE": "아케이드 점수",
@@ -95,30 +95,85 @@
     "#PERMISSION": "권한",
     "#USER": "사용자",
     "#SPEED": "레벨 속도",
-    "#MIRROR": "대칭 레벨",
-    "#RANDOM": "무작위",
-    "#HIDDEN": "숨김",
+    "#MIRROR": "미러",
+    "#RANDOM": "랜덤",
+    "#HIDDEN": "하단 가리개",
     "#JUDGMENT_STRICT": "엄격한 판정",
     "#JUDGMENT_LOOSE": "느슨한 판정",
     "#EFFECT_AUTO": "효과음 자동 재생",
-    "#STAGE": "무대",
-    "#STAGE_POSITION": "무대 위치",
-    "#STAGE_SIZE": "무대 크기",
-    "#STAGE_ROTATION": "무대 회전값",
-    "#STAGE_DIRECTION": "무대 방향",
-    "#STAGE_ALPHA": "무대 투명도",
-    "#STAGE_ANIMATION": "무대 애니메이션",
-    "#STAGE_TILT": "무대 기울기",
-    "#STAGE_COVER_VERTICAL": "무대 수직 가리개",
-    "#STAGE_COVER_HORIZONTAL": "무대 수평 가리개",
-    "#STAGE_COVER_ALPHA": "무대 가리개 투명도",
-    "#STAGE_ASPECTRATIO_LOCK": "무대 종횡비 잠금",
-    "#STAGE_EFFECT": "무대 효과",
-    "#STAGE_EFFECT_POSITION": "무대 효과 위치",
-    "#STAGE_EFFECT_SIZE": "무대 효과 크기",
-    "#STAGE_EFFECT_ROTATION": "무대 효과 회전값",
-    "#STAGE_EFFECT_DIRECTION": "무대 효과 방향",
-    "#STAGE_EFFECT_ALPHA": "무대 효과 투명도",
+    "#STAGE": "스테이지",
+    "#STAGE_POSITION": "스테이지 위치",
+    "#STAGE_SIZE": "스테이지 크기",
+    "#STAGE_ROTATION": "스테이지 회전값",
+    "#STAGE_DIRECTION": "스테이지 방향",
+    "#STAGE_ALPHA": "스테이지 투명도",
+    "#STAGE_ANIMATION": "스테이지 애니메이션",
+    "#STAGE_TILT": "스테이지 기울기",
+    "#STAGE_COVER_VERTICAL": "스테이지 수직 가리개",
+    "#STAGE_COVER_HORIZONTAL": "스테이지 수평 가리개",
+    "#STAGE_COVER_ALPHA": "스테이지 가리개 투명도",
+    "#STAGE_ASPECTRATIO_LOCK": "스테이지   "#COMBO": "콤보",
+    "#PERFECT": "Perfect",
+    "#GREAT": "Great",
+    "#GOOD": "Good",
+    "#MISS": "Miss",
+    "#FILTER": "필터",
+    "#SORT": "정렬",
+    "#KEYWORDS": "검색어",
+    "#NAME": "이름",
+    "#RATING": "난이도",
+    "#RATING_MINIMUM": "최소 난이도",
+    "#RATING_MAXIMUM": "최대 난이도",
+    "#TITLE": "제목",
+    "#SUBTITLE": "부제목",
+    "#ARTISTS": "작곡가",
+    "#TIME": "시간",
+    "#AUTHOR": "제작자",
+    "#DESCRIPTION": "설명",
+    "#GENRE": "장르",
+    "#TYPE": "유형",
+    "#CATEGORY": "범주",
+    "#STATUS": "상태",
+    "#LANGUAGE": "언어",
+    "#DIFFICULTY": "난이도",
+    "#VERSION": "버전",
+    "#LENGTH": "길이",
+    "#LENGTH_MINIMUM": "최소 길이",
+    "#LENGTH_MAXIMUM": "최대 길이",
+    "#ADDITIONAL_INFORMATION": "추가 정보",
+    "#TIMEZONE": "시간대",
+    "#REGION": "지역",
+    "#CONTENT": "콘텐츠",
+    "#COMMENT": "댓글",
+    "#MESSAGE": "메시지",
+    "#ROLE": "역할",
+    "#PERMISSION": "권한",
+    "#USER": "사용자",
+    "#SPEED": "레벨 속도",
+    "#MIRROR": "미러",
+    "#RANDOM": "랜덤",
+    "#HIDDEN": "하단 가리개",
+    "#JUDGMENT_STRICT": "엄격한 판정",
+    "#JUDGMENT_LOOSE": "느슨한 판정",
+    "#EFFECT_AUTO": "효과음 자동 재생",
+    "#STAGE": "스테이지",
+    "#STAGE_POSITION": "스테이지 위치",
+    "#STAGE_SIZE": "스테이지 크기",
+    "#STAGE_ROTATION": "스테이지 회전값",
+    "#STAGE_DIRECTION": "스테이지 방향",
+    "#STAGE_ALPHA": "스테이지 투명도",
+    "#STAGE_ANIMATION": "스테이지 애니메이션",
+    "#STAGE_TILT": "스테이지 기울기",
+    "#STAGE_COVER_VERTICAL": "스테이지 수직 가리개",
+    "#STAGE_COVER_HORIZONTAL": "스테이지 수평 가리개",
+    "#STAGE_COVER_ALPHA": "스테이지 가리개 투명도",
+    "#STAGE_ASPECTRATIO_LOCK": "스테이지 종횡비 잠금",
+    "#STAGE_EFFECT": "스테이지 효과",
+    "#STAGE_EFFECT_POSITION": "스테이지 효과 위치",
+    "#STAGE_EFFECT_SIZE": "스테이지 효과 크기",
+    "#STAGE_EFFECT_ROTATION": "스테이지 효과 회전값",
+    "#STAGE_EFFECT_DIRECTION": "스테이지 효과 방향",
+    "#STAGE_EFFECT_ALPHA": "스테이지 효과 투명도",
     "#LANE": "레인",
     "#LANE_POSITION": "레인 위치",
     "#LANE_SIZE": "레인 크기",
@@ -127,11 +182,11 @@
     "#LANE_ALPHA": "레인 투명도",
     "#LANE_ANIMATION": "레인 애니메이션",
     "#LANE_EFFECT": "레인 효과",
-    "#LANE_EFFECT_POSITION": "레인 효과 위치",
-    "#LANE_EFFECT_SIZE": "레인 효과 크기",
-    "#LANE_EFFECT_ROTATION": "레인 효과 회전값",
-    "#LANE_EFFECT_DIRECTION": "레인 효과 방향",
-    "#LANE_EFFECT_ALPHA": "레인 효과 투명도",
+    "#LANE_EFFECT_POSITION": "레인 이펙트 위치",
+    "#LANE_EFFECT_SIZE": "레인 이펙트 크기",
+    "#LANE_EFFECT_ROTATION": "레인 이펙트 회전값",
+    "#LANE_EFFECT_DIRECTION": "레인 이펙트 방향",
+    "#LANE_EFFECT_ALPHA": "레인 이펙트 투명도",
     "#JUDGELINE": "판정선",
     "#JUDGELINE_POSITION": "판정선 위치",
     "#JUDGELINE_SIZE": "판정선 크기",
@@ -139,12 +194,12 @@
     "#JUDGELINE_DIRECTION": "판정선 방향",
     "#JUDGELINE_ALPHA": "판정선 투명도",
     "#JUDGELINE_ANIMATION": "판정선 애니메이션",
-    "#JUDGELINE_EFFECT": "판정선 효과",
-    "#JUDGELINE_EFFECT_POSITION": "판정선 효과 위치",
-    "#JUDGELINE_EFFECT_SIZE": "판정선 효과 크기",
-    "#JUDGELINE_EFFECT_ROTATION": "판정선 효과 회전값",
-    "#JUDGELINE_EFFECT_DIRECTION": "판정선 효과 방향",
-    "#JUDGELINE_EFFECT_ALPHA": "판정선 효과 투명도",
+    "#JUDGELINE_EFFECT": "판정선 이펙트",
+    "#JUDGELINE_EFFECT_POSITION": "판정선 이펙트 위치",
+    "#JUDGELINE_EFFECT_SIZE": "판정선 이펙트 크기",
+    "#JUDGELINE_EFFECT_ROTATION": "판정선 이펙트 회전값",
+    "#JUDGELINE_EFFECT_DIRECTION": "판정선 이펙트 방향",
+    "#JUDGELINE_EFFECT_ALPHA": "판정선 이펙트 투명도",
     "#SLOT": "슬롯",
     "#SLOT_POSITION": "슬롯 위치",
     "#SLOT_SIZE": "슬롯 크기",
@@ -152,12 +207,12 @@
     "#SLOT_DIRECTION": "슬롯 방향",
     "#SLOT_ALPHA": "슬롯 투명도",
     "#SLOT_ANIMATION": "슬롯 애니메이션",
-    "#SLOT_EFFECT": "슬롯 효과",
-    "#SLOT_EFFECT_POSITION": "슬롯 효과 위치",
-    "#SLOT_EFFECT_SIZE": "슬롯 효과 크기",
-    "#SLOT_EFFECT_ROTATION": "슬롯 효과 회전",
-    "#SLOT_EFFECT_DIRECTION": "슬롯 효과 방향",
-    "#SLOT_EFFECT_ALPHA": "슬롯 효과 투명도",
+    "#SLOT_EFFECT": "슬롯 이펙트",
+    "#SLOT_EFFECT_POSITION": "슬롯 이펙트 위치",
+    "#SLOT_EFFECT_SIZE": "슬롯 이펙트 크기",
+    "#SLOT_EFFECT_ROTATION": "슬롯 이펙트 회전",
+    "#SLOT_EFFECT_DIRECTION": "슬롯 이펙트 방향",
+    "#SLOT_EFFECT_ALPHA": "슬롯 이펙트 투명도",
     "#NOTE": "노트",
     "#NOTE_SPEED": "노트 속도",
     "#NOTE_SPEED_RANDOM": "무작위 노트 속도",
@@ -168,13 +223,13 @@
     "#NOTE_COLOR": "노트 색상",
     "#NOTE_ALPHA": "노트 투명도",
     "#NOTE_ANIMATION": "노트 애니메이션",
-    "#NOTE_EFFECT": "노트 효과",
-    "#NOTE_EFFECT_POSITION": "노트 효과 위치",
-    "#NOTE_EFFECT_SIZE": "노트 효과 크기",
-    "#NOTE_EFFECT_ROTATION": "노트 효과 회전값",
-    "#NOTE_EFFECT_DIRECTION": "노트 효과 방향",
-    "#NOTE_EFFECT_COLOR": "노트 효과 색상",
-    "#NOTE_EFFECT_ALPHA": "노트 효과 투명도",
+    "#NOTE_EFFECT": "노트 이펙트",
+    "#NOTE_EFFECT_POSITION": "노트 이펙트 위치",
+    "#NOTE_EFFECT_SIZE": "노트 이펙트 크기",
+    "#NOTE_EFFECT_ROTATION": "노트 이펙트 회전값",
+    "#NOTE_EFFECT_DIRECTION": "노트 이펙트 방향",
+    "#NOTE_EFFECT_COLOR": "노트 이펙트 색상",
+    "#NOTE_EFFECT_ALPHA": "노트 이펙트 투명도",
     "#MARKER": "마커",
     "#MARKER_POSITION": "마커 위치",
     "#MARKER_SIZE": "마커 크기",
@@ -183,14 +238,14 @@
     "#MARKER_COLOR": "마커 색상",
     "#MARKER_ALPHA": "마커 투명도",
     "#MARKER_ANIMATION": "마커 애니메이션",
-    "#CONNECTOR": "연결선",
-    "#CONNECTOR_POSITION": "연결선 위치",
-    "#CONNECTOR_SIZE": "연결선 크기",
-    "#CONNECTOR_ROTATION": "연결선 회전값",
-    "#CONNECTOR_DIRECTION": "연결선 방향",
-    "#CONNECTOR_COLOR": "연결선 색상",
-    "#CONNECTOR_ALPHA": "연결선 투명도",
-    "#CONNECTOR_ANIMATION": "연결선 애니메이션",
+    "#CONNECTOR": "커넥터",
+    "#CONNECTOR_POSITION": "커넥터 위치",
+    "#CONNECTOR_SIZE": "커넥터 크기",
+    "#CONNECTOR_ROTATION": "커넥터 회전값",
+    "#CONNECTOR_DIRECTION": "커넥터 방향",
+    "#CONNECTOR_COLOR": "커넥터 색상",
+    "#CONNECTOR_ALPHA": "커넥터 투명도",
+    "#CONNECTOR_ANIMATION": "커넥터 애니메이션",
     "#SIMLINE": "동시입력선",
     "#SIMLINE_POSITION": "동시입력선 위치",
     "#SIMLINE_SIZE": "동시입력선 크기",
@@ -311,19 +366,19 @@
     "#SECOND_FUTURE": "{0}초 후",
     "#MILLISECOND_FUTURE": "{0}밀리초 후",
     "#TAP": "탭",
-    "#TAP_HOLD": "탭 및 누르고 있기",
+    "#TAP_HOLD": "탭 및 홀드",
     "#TAP_RELEASE": "탭하고 때기",
-    "#TAP_FLICK": "탭하고 긋기",
+    "#TAP_FLICK": "탭하고 플릭",
     "#TAP_SLIDE": "탭하고 슬라이드",
-    "#HOLD": "누르고 있기",
-    "#HOLD_SLIDE": "누르며 슬라이드하기",
-    "#HOLD_FOLLOW": "누르며 따라가기",
+    "#HOLD": "홀드",
+    "#HOLD_SLIDE": "홀드하며 슬라이드하기",
+    "#HOLD_FOLLOW": "홀드하며 따라가기",
     "#RELEASE": "떼기",
-    "#FLICK": "긋기",
+    "#FLICK": "플릭",
     "#SLIDE": "슬라이드",
-    "#SLIDE_FLICK": "슬라이드하고 긋기",
+    "#SLIDE_FLICK": "슬라이드하고 플릭",
     "#AVOID": "피하기",
-    "#JIGGLE": "지글",
+    "#JIGGLE": "흔들림",
     "#NEWEST": "최신순",
     "#OLDEST": "오래된 순",
     "#RECOMMENDED": "추천",
@@ -331,7 +386,7 @@
     "#FEATURED": "추천",
     "#COMPETITIVE": "호환성",
     "#HOLIDAY": "연휴",
-    "#LIMITED": "제한됨",
+    "#LIMITED": "한정",
     "#ANNOUNCEMENT": "공지",
     "#INFORMATION": "정보",
     "#HELP": "도움말",
@@ -385,7 +440,7 @@
     "#NEGATIVE_ATTITUDE": "부정적인 태도",
     "#DNF": "탈주",
     "#SUGGESTIONS": "제안",
-    "#SUGGESTIONS_PER_PLAYER": "플레이어 당 제안",
+    "#SUGGESTIONS_PER_PLAYER": "플레이어당 제안",
     "#MATCH_SCORING": "매치 점수화",
     "#MATCH_TIEBREAKER": "매치 타이브레이커",
     "#MATCH_COUNT": "매치 카운트",
@@ -775,8 +830,8 @@
       },
       "Theme": {
         "Thumbnail": {
-          "Loading": "테마 섬네일 불러오는 중...",
-          "Error": "\"{0}\"의 테마 섬네일을 불러올 수 없습니다.\n\n인터넷 연결을 확인 후 재시도해 주십시오."
+          "Loading": "테마 썸네일 불러오는 중...",
+          "Error": "\"{0}\"의 테마 썸네일을 불러올 수 없습니다.\n\n인터넷 연결을 확인 후 재시도해 주십시오."
         },
         "Background": {
           "Loading": "테마 배경 불러오는 중...",
@@ -1028,7 +1083,7 @@
         },
         "Thumbnail": {
           "Loading": "게시물 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 게시물 섬네일를 불러올 수 없습니다."
+          "Error": "\"{0}\"의 게시물 썸네일를 불러올 수 없습니다."
         }
       },
       "Playlist": {
@@ -1090,7 +1145,7 @@
         },
         "Thumbnail": {
           "Loading": "재생목록 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 재생목록 섬네일를 불러올 수 없습니다."
+          "Error": "\"{0}\"의 재생목록 썸네일를 불러올 수 없습니다."
         }
       },
       "Level": {
@@ -1240,7 +1295,7 @@
         },
         "Thumbnail": {
           "Loading": "스킨 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 스킨 섬네일를 불러올 수 없습니다."
+          "Error": "\"{0}\"의 스킨 썸네일를 불러올 수 없습니다."
         },
         "Data": {
           "Loading": "스킨 데이터 불러오는 중...",
@@ -1310,7 +1365,7 @@
         },
         "Thumbnail": {
           "Loading": "배경 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 배경 섬네일를 불러올 수 없습니다."
+          "Error": "\"{0}\"의 배경 썸네일를 불러올 수 없습니다."
         },
         "Data": {
           "Loading": "배경 데이터 불러오는 중...",
@@ -1384,7 +1439,7 @@
         },
         "Thumbnail": {
           "Loading": "효과음 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 효과음 섬네일를 불러올 수 없습니다."
+          "Error": "\"{0}\"의 효과음 썸네일를 불러올 수 없습니다."
         },
         "Data": {
           "Loading": "효과음 데이터 불러오는 중...",
@@ -1454,7 +1509,7 @@
         },
         "Thumbnail": {
           "Loading": "입자 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 입자 섬네일를 불러올 수 없습니다."
+          "Error": "\"{0}\"의 입자 썸네일를 불러올 수 없습니다."
         },
         "Data": {
           "Loading": "입자 데이터 불러오는 중...",
@@ -1524,7 +1579,7 @@
         },
         "Thumbnail": {
           "Loading": "엔진 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 엔진 섬네일를 불러올 수 없습니다."
+          "Error": "\"{0}\"의 엔진 썸네일를 불러올 수 없습니다."
         },
         "PlayData": {
           "Loading": "엔진 플레이 모드 데이터 불러오는 중...",
@@ -1718,7 +1773,7 @@
         },
         "Thumbnail": {
           "Loading": "게시물 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 게시물 섬네일를 불러올 수 없습니다.\n\n게시물을 업데이트하거나 다른 게시물을 사용해 주십시오."
+          "Error": "\"{0}\"의 게시물 썸네일를 불러올 수 없습니다.\n\n게시물을 업데이트하거나 다른 게시물을 사용해 주십시오."
         }
       },
       "Playlist": {
@@ -1740,7 +1795,7 @@
         },
         "Thumbnail": {
           "Loading": "재생목록 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 재생목록 섬네일를 불러올 수 없습니다.\n\n재생목록을 업데이트하거나 다른 재생목록을 사용해 주십시오."
+          "Error": "\"{0}\"의 재생목록 썸네일를 불러올 수 없습니다.\n\n재생목록을 업데이트하거나 다른 재생목록을 사용해 주십시오."
         }
       },
       "Level": {
@@ -2037,8 +2092,8 @@
           "Error": "\"{0}\" 게시물은 현재 버전의 Sonolus와 호환되지 않습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
         },
         "Thumbnail": {
-          "Loading": "게시물 섬네일 불러오는 중...",
-          "Error": "\"{0}\"의 게시물 섬네일를 불러올 수 없습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
+          "Loading": "게시물 썸네일 불러오는 중...",
+          "Error": "\"{0}\"의 게시물 썸네일를 불러올 수 없습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
         }
       },
       "Playlist": {
@@ -2059,8 +2114,8 @@
           "Error": "\"{0}\" 재생목록은 현재 버전의 Sonolus와 호환되지 않습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
         },
         "Thumbnail": {
-          "Loading": "재생목록 섬네일 불러오는 중...",
-          "Error": "\"{0}\"의 재생목록 섬네일를 불러올 수 없습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
+          "Loading": "재생목록 썸네일 불러오는 중...",
+          "Error": "\"{0}\"의 재생목록 썸네일를 불러올 수 없습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
         }
       },
       "Level": {
@@ -3418,11 +3473,11 @@
       "Resources": {
         "Post": {
           "Title": "게시물 자원",
-          "Thumbnail": "섬네일"
+          "Thumbnail": "썸네일"
         },
         "Playlist": {
           "Title": "재생목록 자원",
-          "Thumbnail": "섬네일"
+          "Thumbnail": "썸네일"
         },
         "Level": {
           "Title": "레벨 자원",
@@ -3433,32 +3488,32 @@
         },
         "Skin": {
           "Title": "스킨 자원",
-          "Thumbnail": "섬네일",
+          "Thumbnail": "썸네일",
           "Data": "데이터",
           "Texture": "텍스처"
         },
         "Background": {
           "Title": "배경 자원",
-          "Thumbnail": "섬네일",
+          "Thumbnail": "썸네일",
           "Image": "이미지",
           "Data": "데이터",
           "Configuration": "구성"
         },
         "Effect": {
           "Title": "효과 자원",
-          "Thumbnail": "섬네일",
+          "Thumbnail": "썸네일",
           "Data": "데이터",
           "Audio": "오디오"
         },
         "Particle": {
           "Title": "입자 자원",
-          "Thumbnail": "섬네일",
+          "Thumbnail": "썸네일",
           "Data": "데이터",
           "Texture": "텍스처"
         },
         "Engine": {
           "Title": "엔진 자원",
-          "Thumbnail": "섬네일",
+          "Thumbnail": "썸네일",
           "PlayData": "플레이 데이터",
           "WatchData": "시청 데이터",
           "PreviewData": "미리보기 데이터",
